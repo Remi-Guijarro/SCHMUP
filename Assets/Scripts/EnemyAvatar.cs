@@ -2,8 +2,8 @@
 using UnityEditor;
 
 public class EnemyAvatar : BaseAvatar {
-    private void Start()
+    private void OnBecameInvisible()
     {
-        this.MaxSpeeed = 5;
+        Destroy(gameObject);
     }
 }
