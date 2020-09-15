@@ -13,6 +13,8 @@ public class InputController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        float horizontalAxis = Input.GetAxis("Horizontal");
+        float verticalAxis = Input.GetAxis("Vertical");
+        GetComponent<Engines>().Speed = new Vector2(horizontalAxis, verticalAxis);
     }
 }
