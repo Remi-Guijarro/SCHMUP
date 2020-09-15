@@ -20,6 +20,7 @@ public abstract class Bullet : MonoBehaviour
         }
     }
 
+    [SerializeField]
     private Vector2 speed;
 
     public Vector2 Speed
@@ -48,14 +49,30 @@ public abstract class Bullet : MonoBehaviour
         }
     }
 
+    [SerializeField]
+    private float maxSpeed;
+
+    public float MaxSpeed
+    {
+        get
+        {
+            return this.maxSpeed;
+        }
+
+        set
+        {
+            this.maxSpeed = value;
+        }
+    }
+
     public virtual void Init()
     {
-
+        this.Position = new Vector2(0f, 0f);
     }
 
     public virtual void UpdatePosition()
     {
-
+        this.Position += this.Speed * this.MaxSpeed * Time.deltaTime;
     }
 
 
@@ -67,12 +84,12 @@ public abstract class Bullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Init();   
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        UpdatePosition();   
     }
 }
