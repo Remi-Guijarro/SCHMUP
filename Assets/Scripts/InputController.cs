@@ -16,5 +16,9 @@ public class InputController : MonoBehaviour
         float horizontalAxis = Input.GetAxis("Horizontal");
         float verticalAxis = Input.GetAxis("Vertical");
         GetComponent<Engines>().Speed = new Vector2(horizontalAxis, verticalAxis);
+        if (Input.GetButton("Fire1"))
+        {
+            GetComponent<BulletGun>().Fire();
+        }
     }
 }

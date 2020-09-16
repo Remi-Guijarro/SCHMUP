@@ -67,7 +67,6 @@ public abstract class Bullet : MonoBehaviour
 
     public virtual void Init()
     {
-        this.Position = new Vector2(0f, 0f);
     }
 
     public virtual void UpdatePosition()
