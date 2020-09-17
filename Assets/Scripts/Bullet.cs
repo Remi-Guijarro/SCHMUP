@@ -80,13 +80,21 @@ public abstract class Bullet : MonoBehaviour
         Destroy(gameObject);
     }
 
-    // Start is called before the first frame update
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        BaseAvatar avatar = collision.gameObject.GetComponent<BaseAvatar>();
+        if (avatar != null)
+        {
+            Destroy(gameObject);
+            avatar.TakeDamage(Damage);
+        }
+    }
+
     void Start()
     {
         Init();   
     }
 
-    // Update is called once per frame
     void Update()
     {
         UpdatePosition();   

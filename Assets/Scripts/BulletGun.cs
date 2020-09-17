@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class BulletGun : MonoBehaviour
 {
-
     [SerializeField]
     private float fireRate;
     private float lastShot = 0.0f;
