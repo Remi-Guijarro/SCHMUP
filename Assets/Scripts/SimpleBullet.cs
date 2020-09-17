@@ -8,5 +8,6 @@ public class SimpleBullet : Bullet
     public override void Init()
     {
         base.Init();
+        this.Speed = Vector2.right;
     }
 }

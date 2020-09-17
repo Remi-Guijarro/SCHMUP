@@ -64,8 +64,7 @@ public class BulletGun : MonoBehaviour
     {
         if (Time.time > this.FireRate + lastShot)
         {
-            bulletPrefab.Speed = speed;
-            Instantiate(bulletPrefab, gameObject.transform);
+            Instantiate(bulletPrefab, transform.position, Quaternion.identity);
             lastShot = Time.time;
         }
     }
