@@ -11,6 +11,8 @@ public class BulletGun : MonoBehaviour
 
     private float lastShot = 0.0f;
 
+    private bool isPlayer;
+
     public float FireRate
     {
         get
@@ -64,15 +66,29 @@ public class BulletGun : MonoBehaviour
     {
         if (Time.time > this.FireRate + lastShot)
         {
-            Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-            lastShot = Time.time;
+            if (isPlayer) {
+                PlayerAvatar avatar = gameObject.GetComponent<PlayerAvatar>();
+                if (avatar.Energy >= bulletPrefab.EnergyNeeded)
+                {
+                    avatar.DecreaseEnergy(bulletPrefab.EnergyNeeded);
+                    shootBullet();
+                }                
+            } else
+            {
+                shootBullet();
+            }            
         }
     }
 
+    private void shootBullet()
+    {
+        Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        lastShot = Time.time;
+    }
 
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
+        isPlayer = gameObject.CompareTag("Player");
     }
 
     // Update is called once per frame

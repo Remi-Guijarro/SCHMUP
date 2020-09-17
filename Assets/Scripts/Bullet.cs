@@ -4,6 +4,24 @@ using UnityEngine;
 
 public abstract class Bullet : MonoBehaviour
 {
+
+    [SerializeField]
+    private float energyNeeded;
+
+    public float EnergyNeeded
+    {
+        get
+        {
+            return energyNeeded;
+        }
+
+        set
+        {
+            this.energyNeeded = value;
+        }
+    }
+
+
     [SerializeField]
     private float damage;
    
