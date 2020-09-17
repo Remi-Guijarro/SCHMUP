@@ -180,7 +180,7 @@ MonoBehaviour:
   fireRate: 0.15
   bulletPrefab: {fileID: 7256981955249788613, guid: 093470bb7f2410446916b83053a7679c,
     type: 3}
-  damage: 0
+  damage: 20
   speed: {x: 1, y: 0}
 --- !u!114 &4939736613988052306
 MonoBehaviour:
