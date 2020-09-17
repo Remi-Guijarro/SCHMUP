@@ -1,11 +1,14 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class BulletGun : MonoBehaviour
 {
     [SerializeField]
     private float fireRate;
+
     private float lastShot = 0.0f;
 
     public float FireRate
@@ -57,35 +60,20 @@ public class BulletGun : MonoBehaviour
         }
     }
 
-    [SerializeField]
-    private float cooldown;
-
-    public float Cooldown
-    {
-        get
-        {
-            return this.cooldown;
-        }
-
-        set
-        {
-            this.cooldown = value;
-        }
-    }
-
     public void Fire()
     {
-        if(Time.time > this.FireRate + lastShot)
+        if (Time.time > this.FireRate + lastShot)
         {
+            bulletPrefab.Speed = speed;
             Instantiate(bulletPrefab, gameObject.transform);
             lastShot = Time.time;
         }
-        
     }
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame

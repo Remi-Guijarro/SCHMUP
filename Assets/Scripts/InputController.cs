@@ -7,7 +7,8 @@ public class InputController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        BulletGun bulletGun = GetComponent<BulletGun>();
+        bulletGun.Speed = Vector2.right;
     }
 
     // Update is called once per frame

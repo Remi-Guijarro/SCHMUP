@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 509613813980551334}
   - component: {fileID: 7041210645035129072}
   - component: {fileID: 9028303499003501237}
+  - component: {fileID: 1437444375941999946}
+  - component: {fileID: 5644769737614175506}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -158,6 +160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c06a900f193618e49893e8c2f7e99362, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 0
   maxSpeeed: 5
 --- !u!114 &9028303499003501237
 MonoBehaviour:
@@ -171,3 +175,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf7b8288c4d6bc4e9663527c9334800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1437444375941999946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40884561169044988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef8afa07bcd24c440ab1135d74ae47a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5644769737614175506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40884561169044988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc70174ea97f0534998c19c3977bb644, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireRate: 0.4
+  bulletPrefab: {fileID: 6152690595310363169, guid: 57225a3729dcae241a8418c6836b9c41,
+    type: 3}
+  damage: 10
+  speed: {x: 0, y: 0}
+  cooldown: 0
