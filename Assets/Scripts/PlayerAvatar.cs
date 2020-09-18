@@ -11,6 +11,10 @@ public class PlayerAvatar : BaseAvatar {
 
     public static event HandleHealthChanged OnEnergyChanged;
 
+    public delegate void HandleDieEvent(PlayerAvatar source);
+
+    public static event HandleDieEvent OnDieEvent;
+
     [SerializeField]
     private float maxEnergy;
 
@@ -90,6 +94,11 @@ public class PlayerAvatar : BaseAvatar {
     protected virtual void InvokeEnergyChanged(float oldValue, float newValue)
     {
         OnEnergyChanged?.Invoke(this, oldValue, newValue);
+    }
+
+    protected virtual void InvokeDieEvent()
+    {
+        OnDieEvent?.Invoke(this);
     }
 
     public override void TakeDamage(float damage)

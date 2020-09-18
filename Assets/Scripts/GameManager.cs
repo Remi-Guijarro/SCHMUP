@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    private GameManager INSTANCE;
+    private static GameManager INSTANCE;
 
     [SerializeField]
     private BaseAvatar playerPrefab;
@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public GameManager getInstance()
+    public static GameManager getInstance()
     {
         if(INSTANCE == null)
         {

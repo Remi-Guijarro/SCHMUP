@@ -73,8 +73,7 @@ public class BulletGun : MonoBehaviour
                     avatar.DecreaseEnergy(bulletPrefab.EnergyNeeded);
                     shootBullet();
                 }                
-            } else
-            {
+            } else {
                 shootBullet();
             }            
         }
@@ -82,18 +81,16 @@ public class BulletGun : MonoBehaviour
 
     private void shootBullet()
     {
-        Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        if (isPlayer)
+        {
+            Bullet bullet = BulletFactory.Instance.GetBullet(BulletFactory.BulletType.PlayerSimpleBullet, transform.position);
+        } else {
+            Bullet bullet = BulletFactory.Instance.GetBullet(BulletFactory.BulletType.EnemyBullet, transform.position);
+        }
         lastShot = Time.time;
     }
 
-    // Start is called before the first frame update
     void Start() {
         isPlayer = gameObject.CompareTag("Player");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

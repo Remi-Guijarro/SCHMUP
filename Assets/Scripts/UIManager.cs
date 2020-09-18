@@ -23,6 +23,7 @@ public class UIManager : MonoBehaviour
         energySlider.value = playerPrefab.Energy;
         PlayerAvatar.OnHealthChanged += WhenHealthHasChanged;
         PlayerAvatar.OnEnergyChanged += WhenEnergyHasChanged;
+        PlayerAvatar.OnDieEvent += WhenDeathHasOccured;
     }
 
     // Update is called once per frame
@@ -39,5 +40,10 @@ public class UIManager : MonoBehaviour
     public void WhenEnergyHasChanged(PlayerAvatar avatar, float oldValue, float newValue)
     {
         energySlider.value = newValue;
+    }
+
+    public void WhenDeathHasOccured(PlayerAvatar avatar)
+    {
+        // TO DO 
     }
 }
