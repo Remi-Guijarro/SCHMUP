@@ -83,9 +83,9 @@ public class BulletGun : MonoBehaviour
     {
         if (isPlayer)
         {
-            Bullet bullet = BulletFactory.Instance.GetBullet(BulletFactory.BulletType.PlayerSimpleBullet, transform.position);
+            BulletFactory.Instance.GetBullet(BulletFactory.BulletType.PlayerSimpleBullet, transform.position);
         } else {
-            Bullet bullet = BulletFactory.Instance.GetBullet(BulletFactory.BulletType.EnemyBullet, transform.position);
+            BulletFactory.Instance.GetBullet(BulletFactory.BulletType.EnemyBullet, transform.position);
         }
         lastShot = Time.time;
     }

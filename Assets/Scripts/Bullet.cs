@@ -21,6 +21,12 @@ public abstract class Bullet : MonoBehaviour
         }
     }
 
+    public BulletFactory.BulletType Type{
+        get;
+        
+        set;
+    }
+
 
     [SerializeField]
     private float damage;
@@ -95,7 +101,7 @@ public abstract class Bullet : MonoBehaviour
 
     private void OnBecameInvisible()
     {
-        Destroy(gameObject);
+        BulletFactory.ReleaseBullet(this);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -103,8 +109,8 @@ public abstract class Bullet : MonoBehaviour
         BaseAvatar avatar = collision.gameObject.GetComponent<BaseAvatar>();
         if (avatar != null)
         {
-            Destroy(gameObject);
             avatar.TakeDamage(Damage);
+            BulletFactory.ReleaseBullet(this);
         }
     }
 

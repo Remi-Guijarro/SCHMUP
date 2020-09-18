@@ -8,5 +8,6 @@ public class EnemyBullet : Bullet
     {
         base.Init();
         this.Speed = Vector2.left;
+        this.Type = BulletFactory.BulletType.EnemyBullet;
     }
 }

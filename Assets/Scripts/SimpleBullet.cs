@@ -9,5 +9,6 @@ public class SimpleBullet : Bullet
     {
         base.Init();
         this.Speed = Vector2.right;
+        this.Type = BulletFactory.BulletType.PlayerSimpleBullet;
     }
 }
