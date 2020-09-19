@@ -160,9 +160,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c06a900f193618e49893e8c2f7e99362, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
-  maxHealth: 50
-  maxSpeeed: 5
+  health: 20
+  maxHealth: 20
+  maxSpeeed: 2.5
 --- !u!114 &1778715469859350374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc70174ea97f0534998c19c3977bb644, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 0.8
+  fireRate: 1.5
   bulletPrefab: {fileID: 1475381612998624984, guid: 57225a3729dcae241a8418c6836b9c41,
     type: 3}
   damage: 10

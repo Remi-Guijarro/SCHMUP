@@ -111,6 +111,14 @@ public abstract class Bullet : MonoBehaviour
         {
             avatar.TakeDamage(Damage);
             BulletFactory.ReleaseBullet(this);
+        } else
+        {
+            Bullet bullet = collision.gameObject.GetComponent<Bullet>();
+            if(bullet != null)
+            {
+                BulletFactory.ReleaseBullet(this);
+                BulletFactory.ReleaseBullet(bullet);
+            }
         }
     }
 

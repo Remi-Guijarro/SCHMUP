@@ -32,7 +32,7 @@ public class BulletFactory : MonoBehaviour
     private void Start()
     {
       PreinstantiateBullets(BulletType.PlayerSimpleBullet, 20);
-      PreinstantiateBullets(BulletType.EnemyBullet, 20);
+      PreinstantiateBullets(BulletType.EnemyBullet, 100);
     }
 
     public enum BulletType
@@ -55,10 +55,7 @@ public class BulletFactory : MonoBehaviour
         {
             bullet = availableBullets.Dequeue();
             bullet.Position = position;
-        }
-
-        if (bullet == null)
-        {
+        } else {
             bullet = InstantiateBullet(type);
             bullet.Position = position;
         }
