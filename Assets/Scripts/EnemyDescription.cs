@@ -7,7 +7,7 @@ using System.Xml.Serialization;
 public class EnemyDescription
 {
     [XmlElement]
-    public float SpawnPosition
+    public Vector2 SpawnPosition
     {
         get;
         set;

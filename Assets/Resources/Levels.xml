@@ -3,7 +3,6 @@
 
     <LevelDescription Name="The moon" Duration="50">
         <Scene>01_Moon</Scene>
-
         <!-- First wave -->
         <EnemyDescription>
             <SpawnDate>1</SpawnDate>

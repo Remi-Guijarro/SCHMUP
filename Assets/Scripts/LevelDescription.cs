@@ -2,6 +2,8 @@
 using UnityEditor;
 using System.Xml.Serialization;
 
+[XmlRoot("LevelDescription")]
+[XmlType("LevelDescription")]
 public class LevelDescription
 {
     [XmlAttribute]
