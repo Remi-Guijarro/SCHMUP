@@ -4,6 +4,19 @@ using UnityEngine;
 
 public abstract class BaseAvatar : MonoBehaviour
 {
+    public Vector2 Position
+    {
+        get
+        {
+            return this.transform.position;
+        }
+
+        set
+        {
+            this.transform.position = value;
+        }
+    }
+
     [SerializeField]
     private float health;
 
@@ -49,6 +62,18 @@ public abstract class BaseAvatar : MonoBehaviour
             this.maxSpeeed = value;
         }
     }
+    public virtual string PrefabPath
+    {
+        get
+        {
+            return "";
+        }
+
+        set
+        {
+            this.PrefabPath = value;
+        }
+    }
 
     public virtual void TakeDamage(float damage)
     {
@@ -62,15 +87,5 @@ public abstract class BaseAvatar : MonoBehaviour
     public void Die()
     {
         Destroy(gameObject);
-    }
-
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
     }
 }

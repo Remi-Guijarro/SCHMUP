@@ -4,6 +4,8 @@ using UnityEditor;
 public class EnemyAvatar : BaseAvatar {
     private void OnBecameInvisible()
     {
-        Destroy(gameObject);
+        EnemyFactory.ReleaseEnemy(this);
     }
+
+    public override string PrefabPath { get => "Prefabs/Enemy"; set => base.PrefabPath = value; }
 }

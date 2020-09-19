@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private BaseAvatar playerPrefab;
 
+    [SerializeField]
+    private TextAsset levelsDatabase;
+
     public BaseAvatar PlayerPrefab
     {
         get
@@ -55,9 +58,18 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private GameManager()
+    public List<LevelDescription> LevelDescriptions
     {
-        
+        get;
+
+        set;
+    }
+
+    public Level CurrentLevel
+    {
+        get;
+
+        set;
     }
 
     public static GameManager getInstance()
@@ -78,7 +90,7 @@ public class GameManager : MonoBehaviour
     {
         float x = Camera.main.ViewportToWorldPoint(new Vector2(1.1f, 0f)).x;
         float y = Random.Range(Camera.main.orthographicSize * -1, Camera.main.orthographicSize);
-        Instantiate(enemyPrefab, new Vector2(x, y), Quaternion.identity);
+        EnemyFactory.Instance.GetEnemy(new Vector2(x, y), Quaternion.identity,EnemyPrefab.PrefabPath);
     }
 
     public void InstantiateBackground()
@@ -89,6 +101,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        this.LevelDescriptions = XmlHelpers.DeserializeDatabaseFromXML<LevelDescription>(this.levelsDatabase);
         InstantiateBackground();
         InstantiatePlayer();
         InvokeRepeating("InstantiateEnemy", 5f, 2f);
