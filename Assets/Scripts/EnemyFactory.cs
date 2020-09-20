@@ -30,6 +30,7 @@ public class EnemyFactory : MonoBehaviour
         if (enemy == null)
         {
             GameObject gameObject = null;
+            Debug.Log(prefabPath);
             GameObject prefab = (GameObject)Resources.Load(prefabPath);
             gameObject = Instantiate(prefab, position, rotation);
             gameObject.transform.parent = Instance.gameObject.transform;

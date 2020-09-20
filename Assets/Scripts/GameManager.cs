@@ -58,12 +58,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public List<LevelDescription> LevelDescriptions
-    {
-        get;
-
-        set;
-    }
+    public List<LevelDescription> LevelDescriptions { get; set; }
 
     public Level CurrentLevel
     {
@@ -93,6 +88,7 @@ public class GameManager : MonoBehaviour
         EnemyFactory.Instance.GetEnemy(new Vector2(x, y), Quaternion.identity,EnemyPrefab.PrefabPath);
     }
 
+
     public void InstantiateBackground()
     {
         Instantiate(BackgroundPrefab);
@@ -101,9 +97,18 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.LevelDescriptions = XmlHelpers.DeserializeDatabaseFromXML<LevelDescription>(this.levelsDatabase);
         InstantiateBackground();
         InstantiatePlayer();
-        InvokeRepeating("InstantiateEnemy", 5f, 2f);
+        LevelDescriptions = XmlHelpers.DeserializeDatabaseFromXML<LevelDescription>(this.levelsDatabase);
+        this.CurrentLevel = new Level();
+        this.CurrentLevel.Load(LevelDescriptions[0]);
+    }
+
+    private void Update()
+    {
+        if (this.CurrentLevel != null)
+        {
+            this.CurrentLevel.Execute();
+        }
     }
 }

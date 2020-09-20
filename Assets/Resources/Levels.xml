@@ -10,7 +10,7 @@
                 <x>8</x>
                 <y>-3</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>1</SpawnDate>
@@ -18,7 +18,7 @@
                 <x>9</x>
                 <y>-2.5</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>1</SpawnDate>
@@ -26,7 +26,7 @@
                 <x>10</x>
                 <y>-2</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>1</SpawnDate>
@@ -34,7 +34,7 @@
                 <x>11</x>
                 <y>-1.5</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>1</SpawnDate>
@@ -42,7 +42,7 @@
                 <x>12</x>
                 <y>-1</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
                 <EnemyDescription>
             <SpawnDate>1</SpawnDate>
@@ -50,7 +50,7 @@
                 <x>8</x>
                 <y>3</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>1</SpawnDate>
@@ -58,7 +58,7 @@
                 <x>9</x>
                 <y>2.5</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>1</SpawnDate>
@@ -66,7 +66,7 @@
                 <x>10</x>
                 <y>2</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>1</SpawnDate>
@@ -74,7 +74,7 @@
                 <x>11</x>
                 <y>1.5</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>1</SpawnDate>
@@ -82,7 +82,7 @@
                 <x>12</x>
                 <y>1</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
 
@@ -93,7 +93,7 @@
                 <x>10</x>
                 <y>3</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>7.5</SpawnDate>
@@ -101,7 +101,7 @@
                 <x>14</x>
                 <y>3</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>7.5</SpawnDate>
@@ -109,7 +109,7 @@
                 <x>12</x>
                 <y>2</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>7.5</SpawnDate>
@@ -117,7 +117,7 @@
                 <x>12</x>
                 <y>4</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>7.5</SpawnDate>
@@ -125,7 +125,7 @@
                 <x>10</x>
                 <y>-3</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>7.5</SpawnDate>
@@ -133,7 +133,7 @@
                 <x>14</x>
                 <y>-3</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>7.5</SpawnDate>
@@ -141,7 +141,7 @@
                 <x>12</x>
                 <y>-2</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>7.5</SpawnDate>
@@ -149,7 +149,7 @@
                 <x>12</x>
                 <y>-4</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
 
@@ -160,7 +160,7 @@
                 <x>10</x>
                 <y>-4</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>15</SpawnDate>
@@ -168,7 +168,7 @@
                 <x>9</x>
                 <y>-3.5</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
          <EnemyDescription>
             <SpawnDate>15</SpawnDate>
@@ -176,7 +176,7 @@
                 <x>10</x>
                 <y>-3</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
          <EnemyDescription>
             <SpawnDate>15</SpawnDate>
@@ -184,7 +184,7 @@
                 <x>11</x>
                 <y>-2</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>15</SpawnDate>
@@ -192,7 +192,7 @@
                 <x>12</x>
                 <y>-1.5</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
          <EnemyDescription>
             <SpawnDate>15</SpawnDate>
@@ -200,7 +200,7 @@
                 <x>11</x>
                 <y>-1</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
 
@@ -210,7 +210,7 @@
                 <x>14</x>
                 <y>-0.5</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>15</SpawnDate>
@@ -218,7 +218,7 @@
                 <x>15</x>
                 <y>0</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
          <EnemyDescription>
             <SpawnDate>15</SpawnDate>
@@ -226,7 +226,7 @@
                 <x>14</x>
                 <y>0.5</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
 
@@ -237,7 +237,7 @@
                 <x>10</x>
                 <y>4</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>15</SpawnDate>
@@ -245,7 +245,7 @@
                 <x>9</x>
                 <y>3.5</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
          <EnemyDescription>
             <SpawnDate>15</SpawnDate>
@@ -253,7 +253,7 @@
                 <x>10</x>
                 <y>3</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
          <EnemyDescription>
             <SpawnDate>15</SpawnDate>
@@ -261,7 +261,7 @@
                 <x>11</x>
                 <y>2</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
         <EnemyDescription>
             <SpawnDate>15</SpawnDate>
@@ -269,7 +269,7 @@
                 <x>12</x>
                 <y>1.5</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
          <EnemyDescription>
             <SpawnDate>15</SpawnDate>
@@ -277,7 +277,7 @@
                 <x>11</x>
                 <y>1</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_01</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
         <!-- Fourth Wave --> 
@@ -287,7 +287,7 @@
                 <x>12</x>
                 <y>3</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_02</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
          <EnemyDescription>
@@ -296,7 +296,7 @@
                 <x>14</x>
                 <y>0</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_02</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
          <EnemyDescription>
@@ -305,7 +305,7 @@
                 <x>12</x>
                 <y>-3</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_02</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
         <!-- Fifth wave -->
@@ -315,7 +315,7 @@
                 <x>12</x>
                 <y>-4</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_04</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
         <EnemyDescription>
@@ -324,7 +324,7 @@
                 <x>12</x>
                 <y>-2</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_04</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
         <EnemyDescription>
@@ -333,7 +333,7 @@
                 <x>12</x>
                 <y>0</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_04</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
      	<EnemyDescription>
@@ -342,7 +342,7 @@
                 <x>12</x>
                 <y>4</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_04</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
         <EnemyDescription>
@@ -351,7 +351,7 @@
                 <x>12</x>
                 <y>2</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_04</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
   </LevelDescription>
@@ -376,7 +376,7 @@
                 <x>10</x>
                 <y>-4</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_04</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
         <EnemyDescription>
@@ -385,7 +385,7 @@
                 <x>10</x>
                 <y>-2</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_04</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
     	<EnemyDescription>
@@ -394,7 +394,7 @@
                 <x>10</x>
                 <y>4</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_04</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
         <EnemyDescription>
@@ -403,7 +403,7 @@
                 <x>10</x>
                 <y>2</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_04</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
 
@@ -414,7 +414,7 @@
                 <x>12</x>
                 <y>3</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_02</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
         <EnemyDescription>
@@ -423,7 +423,7 @@
                 <x>10</x>
                 <y>4</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_03</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
       	<EnemyDescription>
@@ -432,7 +432,7 @@
                 <x>10</x>
                 <y>2</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_03</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
          <EnemyDescription>
@@ -441,7 +441,7 @@
                 <x>12</x>
                 <y>-3</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_02</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
         <EnemyDescription>
@@ -450,7 +450,7 @@
                 <x>10</x>
                 <y>-4</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_03</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
       	<EnemyDescription>
@@ -459,7 +459,7 @@
                 <x>10</x>
                 <y>-2</y>
             </SpawnPosition>
-            <PrefabPath>Prefabs/Enemy_03</PrefabPath>
+            <PrefabPath>Prefabs/Enemy</PrefabPath>
         </EnemyDescription>
 
 

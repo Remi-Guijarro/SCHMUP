@@ -7,16 +7,11 @@ using System.Xml.Serialization;
 public class EnemyDescription
 {
     [XmlElement]
-    public Vector2 SpawnPosition
-    {
-        get;
-        set;
-    }
+    public Vector2 SpawnPosition { get; set; }
 
     [XmlElement]
-    public float SpawnDate
-    {
-        get;
-        set;
-    }
+    public float SpawnDate { get; set; }
+
+    [XmlElement]
+    public string PrefabPath { get; set; }
 }
