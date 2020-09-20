@@ -101,7 +101,7 @@ public abstract class Bullet : MonoBehaviour
 
     private void OnBecameInvisible()
     {
-        BulletFactory.ReleaseBullet(this);
+       // BulletFactory.ReleaseBullet(this);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -111,8 +111,7 @@ public abstract class Bullet : MonoBehaviour
         {
             avatar.TakeDamage(Damage);
             BulletFactory.ReleaseBullet(this);
-        } else
-        {
+        } else {
             Bullet bullet = collision.gameObject.GetComponent<Bullet>();
             if(bullet != null)
             {
